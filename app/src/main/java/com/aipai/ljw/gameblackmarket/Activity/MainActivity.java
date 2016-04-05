@@ -53,9 +53,8 @@ public class MainActivity extends BaseActivity implements SwipeRefreshLayout.OnR
 
         toolbar = (Toolbar) findViewById(R.id.tooldar);
         initToolbar(toolbar);
+
         if (null!=toolbar){
-
-
             toolbar.setNavigationOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -64,7 +63,6 @@ public class MainActivity extends BaseActivity implements SwipeRefreshLayout.OnR
             });
 
         }
-
 
         listdata=new ArrayList<>();
         for (int d=0;d<18;d++){
@@ -210,8 +208,6 @@ public class MainActivity extends BaseActivity implements SwipeRefreshLayout.OnR
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main,menu);
 
-
-
         //toolbar  还有更多的使用  参考actionbar
         //搜索框的操作
         SearchManager searchManager =
@@ -236,6 +232,7 @@ public class MainActivity extends BaseActivity implements SwipeRefreshLayout.OnR
                 return true;
             }
         });
+
         MenuItemCompat.setOnActionExpandListener(searchItem, new MenuItemCompat.OnActionExpandListener() {
             @Override
             public boolean onMenuItemActionExpand(MenuItem item) {

@@ -11,6 +11,8 @@ import com.aipai.ljw.gameblackmarket.R;
  */
 public class BaseActivity extends AppCompatActivity {
 
+
+
     protected void initToolbar(Toolbar toolbar){
         if (toolbar == null)
             return;
@@ -28,4 +30,6 @@ public class BaseActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
     }
+
+
 }
