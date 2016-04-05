@@ -1,4 +1,4 @@
-package com.aipai.ljw.gameblackmarket.Activity;
+﻿package com.aipai.ljw.gameblackmarket.Activity;
 
 import android.app.SearchManager;
 import android.content.ComponentName;
@@ -50,6 +50,8 @@ public class MainActivity extends BaseActivity implements SwipeRefreshLayout.OnR
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+//我是程序员二  我修改了代码
 
         toolbar = (Toolbar) findViewById(R.id.tooldar);
         initToolbar(toolbar);
