@@ -56,6 +56,7 @@ public class MainActivity extends BaseActivity implements SwipeRefreshLayout.OnR
 
         ////我是程序员一  我再次弄主分支  与子分支的实验
 ////我是程序员一  我再次弄主分支  与子分支的实验  第三次
+//我是程序员  二  我又修改了代码
         toolbar = (Toolbar) findViewById(R.id.tooldar);
         initToolbar(toolbar);
         if (null!=toolbar){
